@@ -1,11 +1,19 @@
 package vo;
 
-public class user {
+public class User {
 	
 	private int no;
 	private String name;
 	private String email;
 	private String tel;
+	
+	public User(int no, String name, String email, String tel) {
+		super();
+		this.no = no;
+		this.name = name;
+		this.email = email;
+		this.tel = tel;
+	}
 	
 	public int getNo() {
 		return no;
